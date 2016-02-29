@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>数量控件</title>
+    <link rel="stylesheet" href="css/numberInput.css">
+</head>
+<body>
+	<h1>数量控件</h1>
+	<input class="number-input" />
+	<input id="number" />
+	<h2>使用方法</h2>
+	<p> 1、引用numberInput.js<br />
+		2、$(DOM).numberInput();</p>
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="js/numberInput.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+	$(function () {
+    	var input = $(".number-input");
+    	var numberInput = input.numberInput();
+	});
+</script>
